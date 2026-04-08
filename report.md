@@ -105,8 +105,7 @@ The predictions are visually very close to the ground truth masks. The model acc
 
 ## Conclusion
 
-A vanilla U-Net achieves strong performance on chest X-ray lung segmentation with a Dice score of 0.9648 and IoU of 0.9330. The most impactful changes were using a combined BCE+Dice loss function and lowering the learning rate to 3e-4. Adding augmentation and training longer provided marginal additional gains. The model generalizes well, as evidenced by the small gap between training and validation metrics. No fancy architectures or tricks were needed to get good results on this task.
-
+A vanilla U-Net achieves strong performance on chest X-ray lung segmentation with a Dice score of 0.9648 and IoU of 0.9330. The most impactful changes were using a combined BCE+Dice loss function and lowering the learning rate to 3e-4. Adding augmentation and training longer provided marginal additional gains. The model generalizes well, as evidenced by the small gap between training and validation metrics.
 ## References
 
 1. Dan et al. (2024). Enhancing medical image segmentation with a multi-transformer U-Net. PeerJ, 12, e17005.
