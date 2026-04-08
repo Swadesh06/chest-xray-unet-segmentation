@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Baseline",
+    "params": "lr=1e-3, bs=8, BCE, 25ep",
+    "dice": 0.963,
+    "iou": 0.9299,
+    "kept": "yes"
+  },
+  {
+    "name": "Exp2-lr3e4",
+    "params": "lr=3e-4",
+    "dice": 0.9637,
+    "iou": 0.9311,
+    "kept": "yes"
+  },
+  {
+    "name": "exp3",
+    "params": "lr=0.0001, bs=8, bce, no-aug, 25ep",
+    "dice": 0.9616,
+    "iou": 0.9272,
+    "kept": "-"
+  },
+  {
+    "name": "exp4",
+    "params": "lr=0.0003, bs=16, bce, no-aug, 25ep",
+    "dice": 0.9623,
+    "iou": 0.9284,
+    "kept": "-"
+  },
+  {
+    "name": "exp5",
+    "params": "lr=0.0003, bs=4, bce, no-aug, 25ep",
+    "dice": 0.9633,
+    "iou": 0.9303,
+    "kept": "-"
+  },
+  {
+    "name": "exp6",
+    "params": "lr=0.0003, bs=8, bce_dice, no-aug, 25ep",
+    "dice": 0.9647,
+    "iou": 0.9331,
+    "kept": "-"
+  },
+  {
+    "name": "exp7",
+    "params": "lr=0.0003, bs=8, bce, aug, 25ep",
+    "dice": 0.964,
+    "iou": 0.9317,
+    "kept": "-"
+  },
+  {
+    "name": "exp8",
+    "params": "lr=0.0003, bs=8, bce_dice, aug, 40ep",
+    "dice": 0.9648,
+    "iou": 0.933,
+    "kept": "BEST"
+  }
+]

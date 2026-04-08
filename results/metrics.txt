@@ -1,0 +1,10 @@
+Experiment           Config                                        Dice       IoU        Status
+-----------------------------------------------------------------------------------------------
+Baseline             lr=1e-3, bs=8, BCE, 25ep                      0.963      0.9299     yes
+Exp2-lr3e4           lr=3e-4                                       0.9637     0.9311     yes
+exp3                 lr=0.0001, bs=8, bce, no-aug, 25ep            0.9616     0.9272     -
+exp4                 lr=0.0003, bs=16, bce, no-aug, 25ep           0.9623     0.9284     -
+exp5                 lr=0.0003, bs=4, bce, no-aug, 25ep            0.9633     0.9303     -
+exp6                 lr=0.0003, bs=8, bce_dice, no-aug, 25ep       0.9647     0.9331     -
+exp7                 lr=0.0003, bs=8, bce, aug, 25ep               0.964      0.9317     -
+exp8                 lr=0.0003, bs=8, bce_dice, aug, 40ep          0.9648     0.933      BEST
